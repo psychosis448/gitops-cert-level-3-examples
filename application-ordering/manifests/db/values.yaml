@@ -1,4 +1,6 @@
 mariadb:
+  image:
+    tag: latest
   architecture: "standalone"
   auth:
     database: "demo"
